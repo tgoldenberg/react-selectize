@@ -1,0 +1,16 @@
+.react-selectize.multi-select .simple-value {
+  background: #f2f9fc;
+  border: 1px solid #c9e6f2;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  color: #08c;
+  display: inline-block;
+  margin: 2px;
+  vertical-align: middle;
+}
+.react-selectize.multi-select .simple-value span {
+  cursor: pointer;
+  display: inline-block;
+  padding: 2px 5px 4px;
+  vertical-align: top;
+}
