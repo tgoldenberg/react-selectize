@@ -609,7 +609,7 @@
     highlightAndScrollToSelectableOption: function(index, direction, callback){
       var this$ = this;
       callback == null && (callback = function(){});
-      if (direction == 1) {
+      if (direction == 0) {
         index = 0;
       }
       (function(){
