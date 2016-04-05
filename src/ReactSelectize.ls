@@ -551,7 +551,8 @@ module.exports = create-class do
 
     # highlight-and-scroll-to-selectable-option :: Int, Int, (Boolean -> Void)? -> Void
     highlight-and-scroll-to-selectable-option: (index, direction, callback = (->)) !->
-
+        if direction == 0
+            index = 0
         # open the list of items
         <~ do ~> if !@props.open then (~> @props.on-open-change true, it) else (-> it!)
 
