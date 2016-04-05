@@ -179,7 +179,7 @@
           var value;
           value = arg$.currentTarget.value;
           return this$.props.onSearchChange(value, function(){
-            return this$.highlightAndScrollToSelectableOption(this$.props.firstOptionIndexToHighlight(this$.props.options), 1);
+            return this$.highlightAndScrollToSelectableOption(this$.props.firstOptionIndexToHighlight(this$.props.options), 0);
           });
         },
         onFocus: function(){
